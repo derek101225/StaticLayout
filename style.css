@@ -1,0 +1,171 @@
+body  {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+  width: 200px;
+  float: left;
+  padding: 20px;
+  transition: transform .2s
+}
+.logo:hover{
+  transform: scale(1.1);
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  
+  
+}
+
+li {
+  float: left;
+  
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.hero-image {
+  background-image: url("https://www.kastapp.co/assets/pages/home/gradient-violet-bg.jpg");
+  background-color: #531F62;
+  height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.navRight{
+  float: right;
+  padding: 14px;
+  font-weight: 700;
+}
+
+.laptop{
+  height: 90%;
+  width: 90%;
+
+
+}
+.btn{
+  background-color: #fe9000; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 55px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 2px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.kast{
+  border: 1px solid white;
+  padding: 5px;
+  margin-top: 8px;
+}
+
+.watch{
+  font-size:50px
+}
+
+.share{
+  font-weight: 100;
+}
+.container{
+  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+.container2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.box{
+  padding: 1% 5% 4% 5%;
+}
+.fea{
+ text-align: center;
+ margin-top: 70px;
+ color: #434146;
+}
+p.fea{
+  font-style: italic;
+  font-size: 20px;
+}
+.hero-image2 {
+  background-image: url("https://www.kastapp.co/assets/pages/home/green-bg.jpg");
+  background-color: #531F62;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+.hero-text2 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+p.yahoo{
+  text-align: right;
+  padding-right: 30%;
+  margin-bottom: 90px;
+  font-style: italic;
+}
+
+#pre:hover{
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
