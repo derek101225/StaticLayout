@@ -42,7 +42,7 @@ li a {
 
 
 .hero-image {
-  background-image: url("/img/gradient-violet-bg.jpg");
+  background-image: url("img/gradient-violet-bg.jpg");
   background-color: #531F62;
   height: 900px;
   background-position: center;
@@ -129,7 +129,7 @@ p.fea{
   font-size: 20px;
 }
 .hero-image2 {
-  background-image: url("/img/green-bg.jpg");
+  background-image: url("img/green-bg.jpg");
   background-color: #531F62;
   height: 500px;
   background-position: center;
