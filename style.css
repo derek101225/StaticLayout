@@ -84,7 +84,7 @@ li a {
   font-size: 18px;
   border-radius: 2px;
   font-weight: 700;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .kast{
@@ -99,6 +99,12 @@ li a {
 
 .share{
   font-weight: 100;
+  margin: 0 130px;
+  line-height: 1.6;
+}
+
+b{
+  font-weight: bold;
 }
 .container{
   
@@ -157,6 +163,10 @@ p.yahoo{
 
 #pre:hover{
   text-decoration: underline;
+}
+
+.teal{
+  
 }
 
 
